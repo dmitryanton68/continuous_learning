@@ -1,2 +1,8 @@
-# Continuous learning of spiking neural networks trained with local rules
-Continuous learning of spiking neural networks trained with local rules
+# __Continuous learning of spiking networks trained with local rules__
+The code illustrates the results published in the article [_Continuous learning of spiking networks trained with local rules_](https://www.sciencedirect.com/science/article/abs/pii/S0893608022003379) in _Neural Networks_.
+***
+### ARTICLE:   
+Antonov, D.I., Sviatov, K.V., Sukhov, S. Continuous learning of spiking networks trained with local rules. Neural Networks, Vol. 155, 2022, pp. 512-522, https://doi.org/10.1016/j.neunet.2022.09.003.
+***
+Abstract: Artificial neural networks (ANNs) experience catastrophic forgetting (CF) during sequential learning. In contrast, the brain can learn continuously without any signs of catastrophic forgetting. Spiking neural networks (SNNs) are the next generation of ANNs with many features borrowed from biological neural networks. Thus, SNNs potentially promise better resilience to CF. In this paper, we study the susceptibility of SNNs to CF and test several biologically inspired methods for mitigating catastrophic forgetting. SNNs are trained with biologically plausible local training rules based on spike-timing-dependent plasticity (STDP). Local training prohibits the direct use of CF prevention methods based on gradients of a global loss function. We developed and tested the method to determine the importance of synapses (weights) based on stochastic Langevin dynamics without the need for the gradients. Several other methods of catastrophic forgetting prevention adapted from analog neural networks were tested as well. The experiments were performed on freely available datasets in the SpykeTorch environment.
+***
