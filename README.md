@@ -13,17 +13,17 @@ Spiking neural network (SNN) was trained on Task 1 (images of digits MNIST) till
 
 ![graphs](graphs.svg)   
 
-__Figure:__ The accuracy of SNN in incremental domain learning experiments. 
-Different panels show the efficiency of different methods for catastrophic forgetting prevention: 
-(a) Catastrophic forgetting,
-(b) Lateral inhibition, 
-(c) Pseudo-rehearsal, 
-(d) Few-short self-remainder (0.25% stored samples), 
-(e) Few-short self-remainder (10% stored samples), 
-(f) Noise regularization, 
-(g) Frozen large weights, 
-(h) Langevin dynamics, 
-(i) Joint training. 
+__Figure:__ The accuracy of SNN in incremental domain learning experiments.     
+Different panels show the efficiency of different methods for catastrophic forgetting prevention:    
+(a) Catastrophic forgetting,    
+(b) Lateral inhibition,     
+(c) Pseudo-rehearsal,     
+(d) Few-short self-remainder (0.25% stored samples),     
+(e) Few-short self-remainder (10% stored samples),     
+(f) Noise regularization,     
+(g) Frozen large weights,     
+(h) Langevin dynamics,     
+(i) Joint training.    
 Lines represent the mean; the shaded areas show the standard deviation. Dotted red lines show the recognition accuracy on Task 1; solid blue lines show the recognition test accuracy on Task 2; dashed cyan lines show the recognition accuracy of the training dataset of Task 2.
 ***
 ***
